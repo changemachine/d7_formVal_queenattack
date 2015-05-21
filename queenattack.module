@@ -94,7 +94,7 @@ function attack_result() {
     $attack = $_SESSION['attack'];
     if ($attack == 1) {
         return "<a href='/queen_attack'><img src='sites/all/modules/queenattack/img/Freddie-Mercury.jpg'/></a>
-                <audio controls autoplay><source src='sites/all/modules/queen/bites.mp3' type='audio/mpeg'></audio>";
+                <audio autoplay><source src='sites/all/modules/queenattack/bites.mp3' type='audio/mpeg'></audio>";
     }
     else {
         return "<a href='/queen_attack'>Just kidding.</a>";
